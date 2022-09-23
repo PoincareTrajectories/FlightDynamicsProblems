@@ -41,8 +41,9 @@ $$\mu = 0.5 $$
 $$\sigma = 0.01 $$
 
 estimate minimum Order of the basis functions such that the maximum offset between the numerically and analytically computed expectation of the position is below a given threshold:
+
 $$
-max (\Delta \mathbb{E}(q(t))) < 0.01
+\max (\Delta \mathbb{E}(q(t))) < 0.01
 $$
 
 ## Utils
