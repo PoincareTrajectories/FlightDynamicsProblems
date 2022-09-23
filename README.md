@@ -48,7 +48,7 @@ $$
 
 ## Utils
 
-- The evaluation will be done against a GitHub repository: please start by forking this repository into a private one and work there.
+- The evaluation will be done against a GitHub private repository to be shared with us after the deadline.
 
 - There is no need to write a report: documentation of the scripts you develop is however important.
 
