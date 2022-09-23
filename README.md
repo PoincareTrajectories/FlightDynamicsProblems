@@ -14,8 +14,10 @@ Here are some problems to help us understand how you work/think/program/write/co
 - Using the Julia programming language, and the DiffEq library, in particular, implement the [Hénon–Heiles system](https://arxiv.org/pdf/2206.04467.pdf).
 - Numerically integrate the system using all the parameters of Section (1), page 19, together with $p_y = y = 0$. Use the best-suited solver and associated inputs. Plot the trajectory in the following planes: $(p_y, y), (x, y)$.
 - Assuming the second component of the initial condition:
-$$y \sim \mathcal{N}(\mu,\,\sigma^{2}) $$
+$$y \sim \mathcal{N}(\mu, \sigma^{2}) $$
+
 $$\mu = 0 $$
+
 $$\sigma = 0.01 $$
 
 perform a Monte Carlo to estimate and represent the evolution of the first four statistical moments of the four components of the state. 
@@ -36,8 +38,10 @@ $$
 
 - Assuming an initial condition:
 
-$$q_0 \sim \mathcal{N}(\mu,\,\sigma^{2}) $$
+$$q_0 \sim \mathcal{N}(\mu, \sigma^{2}) $$
+
 $$\mu = 0.5 $$
+
 $$\sigma = 0.01 $$
 
 estimate minimum Order of the basis functions such that the maximum offset between the numerically and analytically computed expectation of the position is below a given threshold:
